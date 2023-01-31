@@ -1,4 +1,3 @@
-import heapq
 def solution(numlist, n):
     numlst = [(num-n, abs(num-n)) for num in numlist]
     numlist = [abs(num-n) for num in numlist]
